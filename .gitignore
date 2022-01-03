@@ -1,0 +1,8 @@
+*.mo
+*.sublime-project
+*.sublime-workspace
+build/
+.idea/
+venv/
+test.py
+.mypy_cache
