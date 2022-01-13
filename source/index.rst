@@ -1,10 +1,17 @@
-Welcome to Advanced Game Design's documentation!
-================================================
+Advanced Game Design
+====================
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Resrouces:
+
+   class_resources/camel/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Assignments:
 
    assignments/camel/index
+
 
 
