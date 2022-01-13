@@ -3,7 +3,7 @@ Advanced Game Design
 
 .. toctree::
    :maxdepth: 1
-   :caption: Resrouces:
+   :caption: Resources:
 
    class_resources/camel/index
 
