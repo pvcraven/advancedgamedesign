@@ -131,6 +131,7 @@ Turn in a report.
 
 * Summarize what you finished this week.
 * Link to the GitHub project.
+* Link to the issue that has the item(s) you worked on.
 * Link to your commits. It will look something like:
   https://github.com/pythonarcade/arcade/commits?author=pvcraven
 
