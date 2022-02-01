@@ -6,6 +6,7 @@ Advanced Game Design
    :caption: Resources:
 
    class_resources/camel/index
+   class_resources/blender_to_unity/index
 
 .. toctree::
    :maxdepth: 1
