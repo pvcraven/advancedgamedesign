@@ -9,6 +9,7 @@ Important Notes
 * Must cite any 3d models, textures, sounds that you use!
 * Do not add assets into a folder without using Unity
 * If working on a challenging item, have a back-up goal. You've got to get something done!
+* Everyone must be on the same version of Unity. Do not upgrade your Unity.
 
 Possible Goals
 --------------
@@ -21,10 +22,11 @@ Possible Goals
 * Materials
 
   * Learn some of the options for materials, and make things shiny, etc.
+  * Note: Learn these in Unity, not Blender. Blender to Unity material transfer is limited.
 
 * Textures
 
-  * Map an image onto an item (UV Mapping)
+  * Map an image onto an item (UV Mapping) Can do in Blender or Unity.
   * Learn to use normal maps
   * Create water
 
