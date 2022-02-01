@@ -12,6 +12,8 @@ Advanced Game Design
    :caption: Assignments:
 
    assignments/camel/index
+   assignments/roll_a_ball/index
+   assignments/custom_roll_a_ball/index
 
 
 
