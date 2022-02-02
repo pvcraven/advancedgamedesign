@@ -178,5 +178,6 @@ It will only run the animation once, so on both we have to select it to loop.
 References
 ----------
 
-* Acadia Developer. `Unity FPS Controller <https://github.com/Acacia-Developer/Unity-FPS-Controller/blob/master/Assets/Script/PlayerController.cs>`_. Sep 10, 2020
+* Acacia Developer.  `First Person Controller <https://www.youtube.com/watch?v=PmIPqGqp8UY>`_. Sep 10, 2020
+* Acacia Developer. `Unity FPS Controller code <https://github.com/Acacia-Developer/Unity-FPS-Controller/blob/master/Assets/Script/PlayerController.cs>`_. Sep 10, 2020
 * Niklas Bergstrand. `Adding walk and run animation in Unity <https://bergstrand-niklas.medium.com/adding-walk-and-run-animation-in-unity-408f87d37ef2>`_. May 19, 2021
