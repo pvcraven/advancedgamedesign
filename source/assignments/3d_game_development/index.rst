@@ -14,6 +14,13 @@ Starting the Project
 
   * Get this started by creating a section in your readme to hold this info.
 
+* Figure out how you want to stay in contact. Exchange info. (E-mail, slack, discord, etc.)
+* Brainstorm Ideas
+
+  * Theme?
+  * Color scheme? See `Adobe Kuler <https://color.adobe.com/create/color-wheel>`_ and create a swatch?
+  * Create one or more tasks for everyone. Backup tasks are a good idea. See "Some Ideas On Tasks"
+
 Each Week on Thursday
 ---------------------
 
