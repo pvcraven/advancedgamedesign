@@ -14,3 +14,5 @@ Custom Roll-a-Ball
 
 * Update your playing field with a custom playing field created in Blender.
 * Grading will be a somewhat subjective. Impress me, don't shoot for the minimum.
+* Update the image in your read-me.
+* Turn in a Git-Hub link to your project.
