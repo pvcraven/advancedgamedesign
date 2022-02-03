@@ -14,6 +14,12 @@ Starting the Project
 
   * Get this started by creating a section in your readme to hold this info.
 
+* Brainstorm Ideas
+
+  * Theme?
+  * Color scheme? See `Adobe Kuler <https://color.adobe.com/create/color-wheel>`_ and create a swatch?
+  * Create one or more tasks for everyone. Backup tasks are a good idea. See "Some Ideas On Tasks"
+
 Each Week on Thursday
 ---------------------
 
