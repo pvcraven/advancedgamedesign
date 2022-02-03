@@ -14,6 +14,7 @@ Starting the Project
 
   * Get this started by creating a section in your readme to hold this info.
 
+* Figure out how you want to stay in contact. Exchange info. (E-mail, slack, discord, etc.)
 * Brainstorm Ideas
 
   * Theme?
