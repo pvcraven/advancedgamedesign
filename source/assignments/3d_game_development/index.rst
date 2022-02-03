@@ -105,7 +105,9 @@ Some Ideas on Tasks
   * Make moving platforms
   * Create switches that trigger events
   * Create a 3d car instead of a ball to move around
-  * Create a 3d walking character rather than a rolling ball
+  * Create a 3d walking character rather than a rolling ball.
+    `Use Mixamo <https://www.youtube.com/watch?v=0QA2O7juuWQ>`_.
+
 
 * Player
 
