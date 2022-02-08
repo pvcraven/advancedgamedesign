@@ -64,7 +64,13 @@ Now we need our idle and walking animations.
 #. Select FBX for Unity. (Again, the default FBX doesn't work.)
 #. Select "Without Skin" because we already downloaded that.
 
-Next, repeat for a walking animation.
+Next, repeat for a walking animation. You'll get an extra check-box
+for **in-place** which you must check. This will keep the animation from
+moving the character forward, while the code thinks the character
+is in the same location.
+
+.. warning:: You must select "In-Place" checkbox for any moving animation
+
 
 Add Mixamo Characters and Animations to Project
 -----------------------------------------------
@@ -125,8 +131,6 @@ Add Character Script
 * Make the camera a 'child' of the player and position behind the player.
 * Add this character script:
 
-
-
 .. literalinclude:: CharacterScript.cs
    :language: c#
    :linenos:
@@ -135,6 +139,27 @@ Add Character Script
 
 Animate
 -------
+
+Add Armature Rigs
+^^^^^^^^^^^^^^^^^
+
+* Select your character in the assets folder.
+* In the "Inspector" tab, select "Rig".
+* Select "Humanoid"
+* Select "Create From This Model".
+* Select "Apply"
+
+   .. image:: character_rig.png
+      :width: 70%
+
+* Select the "Idle" animation.
+* In the "Inspector" tab, select "Rig".
+* Select "Humanoid"
+* Select "**Copy** From Other Avatar".
+* Double-click on "Source" and select the avatar you just created
+* Select "Apply"
+* Repeat for the "Walk" animation.
+* There may be warnings. That's ok.
 
 Add Idle Animation
 ^^^^^^^^^^^^^^^^^^
@@ -163,17 +188,34 @@ Now in the Animator, we should be able to add ``speed``:
 .. image:: add_speed.png
    :width: 70%
 
-Then we can add in our "walk" animation. Add transitions, and make it based on speed. Greater than 0.1, we animate.
-Less than 0.1, we idle.
+Then we can add in our "walk" animation. Add transitions, and make it based on speed. Greater than 0.3, we animate.
+Less than 0.3, we idle.
 
 .. image:: transition.png
    :width: 70%
 
-It will only run the animation once, so on both we have to select it to loop.
+Right now, the animations will only run once. Double-click between both
+animations and make sure that "Loop Time" box is checked for both animations.
 
 .. image:: add_loop.png
    :width: 70%
 
+Also, the animations won't transition until they are done.
+Flip between both animations and *uncheck* "Has Exit Time."
+
+.. image:: has_exit_time.png
+   :width: 70%
+
+Uncheck Root Motion
+^^^^^^^^^^^^^^^^^^^
+
+Depending on your animation, the animation can move the character.
+Typically it works best if it is just an animation.
+Select your character, and in the "Animator" section, uncheck
+root motion:
+
+.. image:: root_motion.png
+   :width: 70%
 
 References
 ----------
