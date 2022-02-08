@@ -65,7 +65,9 @@ Some Ideas on Tasks
 
 * Skybox
 
-  * Learn to add a skybox
+  * Learn to add a skybox. **Warning:** Be very careful about
+    how hi-res of an image you download. These can be huge and
+    blow up your project if you download something too big.
 
 * Sound
 
