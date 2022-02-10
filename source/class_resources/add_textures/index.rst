@@ -91,7 +91,7 @@ Very Simple Textures
 
   * Toss 'texture' to Albedo.
   * Toss 'specular' to 'metalic'. Change to 'Albedo Alpha' and turn smoothness
-    down to about 0.1.
+    down to about 0.1. You can use this for occlusion instead.
   * Toss 'normal' to 'normal map'
   * Toss 'displacement' to 'Height map'
 
@@ -99,3 +99,57 @@ Very Simple Textures
    :width: 80%
 
 * You can change the 'tiling' to control how many times it repeats on the surface.
+
+UV Mapping
+----------
+
+Take some road textures:
+
+.. figure:: Tileable_cracked_asphalt_road_texture.jpg
+   :width: 30%
+
+   Road texture
+
+.. figure:: Tileable_cracked_asphalt_road_texture_NORMAL.jpg
+   :width: 30%
+
+   Road texture normal
+
+.. figure:: Tileable_cracked_asphalt_road_texture_SPECULAR.jpg
+   :width: 30%
+
+   Road texture specular
+
+Create a road texture. I used specular for occlusion. Apply to a new cube.
+
+.. image:: road_cube.png
+   :width: 50%
+
+Looks ok. But what if we scale the cube?
+
+.. image:: stretched_road_cube.png
+   :width: 50%
+
+We need to change the geometry, and not scale the item. Then do a "UV Unwrap".
+
+Go to blender. Create a cube. Go into **edit mode** and not object mode. Change
+the cube dimensions.
+
+.. image:: blender_cube.png
+   :width: 50%
+
+Change the bottom view to UV. Do a smart UV unwrap:
+
+.. image:: blender_uv.png
+   :width: 50%
+
+Delete camera and light. Save into your Assets folder.
+Toss cube onto scene. Apply material. See how it maps?
+
+Change mapping. Save. See results.
+
+.. image:: blender_uv2.png
+   :width: 50%
+
+.. image:: unity_mapped.png
+   :width: 50%
