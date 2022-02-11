@@ -133,7 +133,12 @@ Important Notes
   are more complex than expected.
 * Everyone must be on the same version of Unity. Do not upgrade your Unity.
   That will force everyone to upgrade, or you'll just end up losing your work.
-
+* Your work must be integrated. For example, if your task is designing a tree,
+  don't spend all your time making a beautiful tree in Blender and never
+  get it into the game. Create a cylinder in Blender. Get it into the game.
+  Fancy it up with some branches. Get that in the game. Add materials. Get
+  that into the game. If something isn't in the game, it might as well not
+  exist.
 
 Turn In
 -------
@@ -145,5 +150,6 @@ Turn in a report.
 * Link to the issue that has the item(s) you worked on.
 * Link to your commits. It will look something like:
   https://github.com/pythonarcade/arcade/commits?author=pvcraven
+* Include an image of what you did, and show it working in the game.
 
 
