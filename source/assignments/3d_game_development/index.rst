@@ -139,6 +139,11 @@ Important Notes
   Fancy it up with some branches. Get that in the game. Add materials. Get
   that into the game. If something isn't in the game, it might as well not
   exist.
+* Commit early. Commit often. If you only commit during one day this week,
+  it won't look like you've done much work at all.
+* The fancy materials and modifiers you use in Blender are not likely
+  to show up in Unity. Keep it simple. Make sure things work in Unity before
+  sinking a lot of time into them.
 
 Turn In
 -------
@@ -152,4 +157,26 @@ Turn in a report.
   https://github.com/pythonarcade/arcade/commits?author=pvcraven
 * Include an image of what you did, and show it working in the game.
 
+Grading
+-------
 
+I'll grade the way I evaluated the work of my employees back when I worked IT.
+
+* Frequency of commits. Do you have commits spread across three or
+  more days? This shows ongoing work and integration with the whole project.
+  In the workplace, I'd expect commits every day. Or hour or two.
+* Integration with the project. When I hit 'play' on the game, can I see
+  what you did? If so, that will help give you a good grade.
+  Don't make the mistake of adding a model, sound, material, or some
+  other component, but not make it part of gameplay. If I hit 'play' and
+  can't see your work, then it serves no purpose. I suggest when adding
+  items, get a simple version of it (cube, beep, "hello world" debug)
+  working, then go back and add detail. Always keep it
+  in the playable game.
+* Documentation. Did you include links to your project and your commits?
+  Did you detail what you did that works in words? Include
+  screenshots? Did you make it so simple to see what you did, I don't neven
+  need to clone the game? Did you see me in class and show off your work there?
+  Did you use the issue tracking? As a manager, I'm looking at that more than
+  diving into your code. You don't want managers diving into the code, make
+  it easy for them to track progress.
