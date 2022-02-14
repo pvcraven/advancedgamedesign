@@ -162,20 +162,23 @@ Grading
 
 I'll grade the way I evaluated the work of my employees back when I worked IT.
 
-* Frequency of commits. Do you have commits spread across three or
-  more days? This shows ongoing work and integration with the whole project.
-  In the workplace, I'd expect commits every day. Or hour or two.
 * Integration with the project. When I hit 'play' on the game, can I see
   what you did? If so, that will help give you a good grade.
   Don't make the mistake of adding a model, sound, material, or some
   other component, but not make it part of gameplay. If I hit 'play' and
-  can't see your work, then it serves no purpose. I suggest when adding
-  items, get a simple version of it (cube, beep, "hello world" debug)
-  working, then go back and add detail. Always keep it
+  can't see your work, then it serves no purpose. When adding
+  items, start with a simple version. For example, a cube, a beep, code that just
+  prints "hello world" at the right trigger.
+  You have something working. Go back and add detail. Always keep it
   in the playable game.
+* Frequency of commits. Do you have commits spread across three or
+  more days? This shows ongoing work and integration with the whole project.
+  In the workplace, I'd expect commits every day. Or hour or two.
+  If you are doing something that might break the project, do it in a
+  separate branch, then merge. Ask if you'd like help learning to do this.
 * Documentation. Did you include links to your project and your commits?
   Did you detail what you did that works in words? Include
-  screenshots? Did you make it so simple to see what you did, I don't neven
+  screenshots? Did you make it so simple to see what you did, I don't even
   need to clone the game? Did you see me in class and show off your work there?
   Did you use the issue tracking? As a manager, I'm looking at that more than
   diving into your code. You don't want managers diving into the code, make
