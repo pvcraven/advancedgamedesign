@@ -176,6 +176,8 @@ I'll grade the way I evaluated the work of my employees back when I worked IT.
   In the workplace, I'd expect commits every day. Or hour or two.
   If you are doing something that might break the project, do it in a
   separate branch, then merge. Ask if you'd like help learning to do this.
+* Quantity/complexity of work. Did you do some scripting? Or add a detailed
+  model? Or add a lot of different low-poly models?
 * Documentation. Did you include links to your project and your commits?
   Did you detail what you did that works in words? Include
   screenshots? Did you make it so simple to see what you did, I don't even
@@ -183,3 +185,4 @@ I'll grade the way I evaluated the work of my employees back when I worked IT.
   Did you use the issue tracking? As a manager, I'm looking at that more than
   diving into your code. You don't want managers diving into the code, make
   it easy for them to track progress.
+* Citations.
