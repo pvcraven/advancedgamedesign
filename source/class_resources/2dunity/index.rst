@@ -4,7 +4,7 @@
 Get some sample sprites in Unity
 --------------------------------
 
-#. Clone the base Unity project.
+#. Clone the base Unity project: https://github.com/pvcraven/2022_Class_2D_Project
 #. Create sprites in Aesprite.
 
    * Use NES palette
@@ -24,6 +24,13 @@ Get some sample sprites in Unity
 
 #. Open in Unity, confirm the assets are there.
 #. Do a git add, commit, push and pull to sync with the whole class.
+
+.. warning:: Be careful of .meta files
+
+   Unity adds a ``.meta`` file that tags a GUID for each file. If you create
+   or move a file into a Unity project, let unity create a ``.meta`` for it
+   before check in! This includes the exported ``.png``. Failure to do this
+   will cause a lot of merge headaches.
 
 Move and collide with sprites
 -----------------------------

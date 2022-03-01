@@ -1,13 +1,27 @@
 2D Assignment 1
 ===============
 
+In this assignment, we'll get started with 2D.
+
+To get started, clone our project. Get invited as a collaborator.
+
+https://github.com/pvcraven/2022_Class_2D_Project
+
+Directions
+----------
+
 Asset Creation
---------------
+~~~~~~~~~~~~~~
+
+**All item names must include yours so we can identify them.**
 
 * Create your own character. 16x16 resolution is too small to do much, but you can check out:
    https://imgur.com/gallery/zWz0n
 * Create your own tree. https://www.patreon.com/posts/trees-new-33464664
-* Create your own bush. https://www.artstation.com/artwork/Nx2vz5
+* Sign up to create three other items for a total of five.
+
+Sample Items to Create
+^^^^^^^^^^^^^^^^^^^^^^
 
 * Outdoors
 
@@ -65,3 +79,26 @@ Asset Creation
     * Donut
     * Cookie
     * Pizza
+
+Scene Creation
+~~~~~~~~~~~~~~
+
+* Create your own scene. Include your name in the scene name.
+* Add in your character sprite
+
+Tile Creation
+~~~~~~~~~~~~~
+
+Tilemap Creation
+~~~~~~~~~~~~~~~~
+
+
+
+Turn in
+-------
+
+Create a MS Word report with:
+
+* Screenshot of your five assets in Aesprite
+* Screenshot of your tiles in Aesprite
+* Screenshot of your scene showing tilemap and items placed
