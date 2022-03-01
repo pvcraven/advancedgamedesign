@@ -9,6 +9,7 @@ Advanced Game Design
    class_resources/blender_to_unity/index
    class_resources/mixamo/index
    class_resources/add_textures/index
+   class_resources/2dunity/index
 
 .. toctree::
    :maxdepth: 1
