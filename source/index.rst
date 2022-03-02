@@ -19,6 +19,7 @@ Advanced Game Design
    assignments/roll_a_ball/index
    assignments/custom_roll_a_ball/index
    assignments/3d_game_development/index
+   assignments/2d_assignment_1/index
 
 
 

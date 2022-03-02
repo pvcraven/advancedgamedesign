@@ -99,6 +99,6 @@ Turn in
 
 Create a MS Word report with:
 
-* Screenshot of your five assets in Aesprite
-* Screenshot of your tiles in Aesprite
+* Screenshot of your five assets in Aseprite
+* Screenshot of your tiles in Aseprite
 * Screenshot of your scene showing tilemap and items placed

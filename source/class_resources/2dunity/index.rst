@@ -1,11 +1,14 @@
 2D Unity
 ========
 
-Get some sample sprites in Unity
---------------------------------
+.. contents::
+    :depth: 3
+
+Create sample sprites and add to Unity
+--------------------------------------
 
 #. Clone the base Unity project: https://github.com/pvcraven/2022_Class_2D_Project
-#. Create sprites in Aesprite.
+#. Create sprites in Aseprite.
 
    * Use NES palette
    * Create a 16x16 character.
@@ -32,8 +35,8 @@ Get some sample sprites in Unity
    before check in! This includes the exported ``.png``. Failure to do this
    will cause a lot of merge headaches.
 
-Move and collide with sprites
------------------------------
+Change sprite settings
+----------------------
 
 #. Create your own scene. Call it ``scene_name``.
 #. Drag character onto the screen.
@@ -41,20 +44,31 @@ Move and collide with sprites
    Change from 100 to 16.
 #. Great. Now the character is blurry. Change the filtering to 'point'.
 #. Character might be blotchy. Turn off compression.
-#. Should be able to run and see character.
-#. Add rigid body 2d. Character should now fall.
-#. Take out gravity.
-#. Add in character controller script that is already in the project.
+#. Should be able to run the scene and see character properly.
+#. Repeat these steps for your sprites. Don't do this for other people's sprites.
+#. Sync with GitHub.
+
+Make sprites solid
+------------------
+
+#. Add a rigid body 2d. Run the game. Character should now fall.
+
+#. Zero out the gravity.
+#. Add to your character, the
+   `MyCharacterController <https://github.com/pvcraven/2022_Class_2D_Project/blob/main/Assets/Scripts/MyCharacterController.cs>`_
+   script that is already in the project under the scripts folder. Examine the script and see how it works.
 #. Should be able to move character with WSAD. Can adjust speed as needed.
-#. Add your tree, adjusting PPU and filter as before.
-#. Add capsule 2d collider. Adjust so you collide on the bottom half.
+#. Add your tree.
+#. Try running. No collision.
+#. Add colliders to the character and tree.
+
+   * There are circle colliders, capsule colliders, box colliders. Pick the best one.
+   * You might not want to make a collider around everything for a more 3D look.
 
    .. image:: tree_collider.png
       :width: 70%
 
-#. Try running. No collision.
-#. Add collider on character. (Circle?)
-#. Try running. But character spins!
+#. Try running. Character spins!
 #. Freeze rotation.
 
    .. image:: freeze_rotation.png
@@ -64,4 +78,35 @@ Move and collide with sprites
    to fix:
 
    .. image:: sort_order.png
-      :width: 40%
+      :width: 60%
+
+Add in score
+------------
+
+Add in a sprite to increase your score.
+
+* You'll need a collider. Make the collider a "trigger".
+* You'll need to add in the
+  `ScoreScript <https://github.com/pvcraven/2022_Class_2D_Project/blob/main/Assets/Scripts/ScoreScript.cs>`_.
+  Examine this script and the character controller together to see how they work.
+* Set the points for the score script.
+
+  .. image:: score.png
+     :width: 60%
+
+* Test.
+* You can also have items that make the score go down by putting in a negative number for points.
+
+Add in scene change
+-------------------
+
+Create a sprite that will will cause you to go to the next level.
+
+* You'll need a collider. Make the collider a "trigger".
+* You'll need to add in the
+  `SceneChangeScript <https://github.com/pvcraven/2022_Class_2D_Project/blob/main/Assets/Scripts/SceneChangeScript.cs>`_.
+  Examine this script and the character controller together to see how they work.
+* Your scene must appear in File...Build Settings. This is where you determine the order of levels.
+  As this is a common area, only one person can edit at a time. So let the instructor do this in class.
+
+  .. image:: build_settings.png
