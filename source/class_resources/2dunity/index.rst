@@ -1,5 +1,8 @@
-2D Unity
-========
+
+.. _unity2d_part_1:
+
+2D Unity Part 1
+===============
 
 .. contents::
     :depth: 3
@@ -110,3 +113,12 @@ Create a sprite that will will cause you to go to the next level.
   As this is a common area, only one person can edit at a time. So let the instructor do this in class.
 
   .. image:: build_settings.png
+
+Summary
+-------
+
+This should step you through most of what you need to complete
+:ref:`unity2d_assignment_1`. Expand what you've learned to create
+an explorable level. Don't worry about the background image yet,
+we'll get to that with tiles.
+
