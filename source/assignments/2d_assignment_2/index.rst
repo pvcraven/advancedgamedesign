@@ -14,7 +14,6 @@ Requirements
 
 Turn in a report detailing and showing (with screenshots) your completion of:
 
-
 .. list-table:: Point Allocation
    :widths: 30 20 75
    :header-rows: 1
