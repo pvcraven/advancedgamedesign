@@ -23,6 +23,7 @@ Advanced Game Design
    assignments/3d_game_development/index
    assignments/2d_assignment_1/index
    assignments/2d_assignment_2/index
+   assignments/2d_assignment_3/index
 
 
 

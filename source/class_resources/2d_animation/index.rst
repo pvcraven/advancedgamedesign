@@ -1,3 +1,5 @@
+.. _2d_animation:
+
 2D Animation
 ============
 
@@ -42,3 +44,27 @@ Import a sprite sheet and slice it like we did before.
   from it.
 * Drag images onto the timeline
 * Too fast.
+* Drag out the frames, slow it down
+
+.. figure:: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/676c614f-d09c-4485-a246-d1ea708273bd/dchb7sq-c8fedde8-961e-47d4-a4a3-495014265fc1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY3NmM2MTRmLWQwOWMtNDQ4NS1hMjQ2LWQxZWE3MDgyNzNiZFwvZGNoYjdzcS1jOGZlZGRlOC05NjFlLTQ3ZDQtYTRhMy00OTUwMTQyNjVmYzEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jprvx0joe-4mDnN-XqmEEps-bOklrD1zm01bJIqLadA
+
+    Source: `SadFace-RL Animation, getting started <https://www.deviantart.com/sadfacerl/art/Animation-Getting-Started-754670906>`_
+
+
+Create an animated character
+----------------------------
+
+.. figure:: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/676c614f-d09c-4485-a246-d1ea708273bd/dcisa01-b285151f-0b33-4df3-b42a-641daddf0f2b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY3NmM2MTRmLWQwOWMtNDQ4NS1hMjQ2LWQxZWE3MDgyNzNiZFwvZGNpc2EwMS1iMjg1MTUxZi0wYjMzLTRkZjMtYjQyYS02NDFkYWRkZjBmMmIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5A4ky15XzfRqitDMjOxaX0MGbBoYd-UWAg9kcCOLlb4
+
+    Source: `SadFace-RL Characters, the human male <https://www.deviantart.com/sadfacerl/art/Tutorial-Characters-Human-Male-757146529>`_
+
+.. figure:: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/676c614f-d09c-4485-a246-d1ea708273bd/dceoc95-b39fd3b3-61c9-48ca-8bc0-5f1218641935.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY3NmM2MTRmLWQwOWMtNDQ4NS1hMjQ2LWQxZWE3MDgyNzNiZFwvZGNlb2M5NS1iMzlmZDNiMy02MWM5LTQ4Y2EtOGJjMC01ZjEyMTg2NDE5MzUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HlW8ziFKqTJ0j78jhxsw-5UAPJP7QXqbIkXmmNfXDCk
+
+    Source: `SadFace-RL Animation, the walk cycle <https://www.deviantart.com/sadfacerl/art/Animation-Tutorial-The-Walk-Cycle-750244361>`_
+
+Get animated character working
+------------------------------
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FXXc0hTWIMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
