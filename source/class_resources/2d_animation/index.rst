@@ -3,10 +3,12 @@
 2D Animation
 ============
 
+.. contents::
+
 In this tutorial we'll work on animating sprites.
 
-Create a time-based animation
------------------------------
+Create a time-based animation in Aseprite
+-----------------------------------------
 
 Create a folder for your animation.
 
@@ -31,8 +33,8 @@ Export a sprite sheet.
 * File->Export Sprite Sheet
 * Output->Output file
 
-Import a sprite sheet
----------------------
+Import a sprite sheet in Unity
+------------------------------
 
 Import a sprite sheet and slice it like we did before.
 
@@ -51,8 +53,8 @@ Import a sprite sheet and slice it like we did before.
     Source: `SadFace-RL Animation, getting started <https://www.deviantart.com/sadfacerl/art/Animation-Getting-Started-754670906>`_
 
 
-Create an animated character
-----------------------------
+Create animated character frames in Aseprite
+--------------------------------------------
 
 .. figure:: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/676c614f-d09c-4485-a246-d1ea708273bd/dcisa01-b285151f-0b33-4df3-b42a-641daddf0f2b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY3NmM2MTRmLWQwOWMtNDQ4NS1hMjQ2LWQxZWE3MDgyNzNiZFwvZGNpc2EwMS1iMjg1MTUxZi0wYjMzLTRkZjMtYjQyYS02NDFkYWRkZjBmMmIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5A4ky15XzfRqitDMjOxaX0MGbBoYd-UWAg9kcCOLlb4
 
@@ -62,9 +64,45 @@ Create an animated character
 
     Source: `SadFace-RL Animation, the walk cycle <https://www.deviantart.com/sadfacerl/art/Animation-Tutorial-The-Walk-Cycle-750244361>`_
 
-Get animated character working
-------------------------------
+Get character working with idle animation in Unity
+--------------------------------------------------
+
+Here's a video that covers what we are doing:
 
 .. raw:: html
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FXXc0hTWIMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+First, go ahead an import your character animations, then slice up the images.
+
+If you want to replace a character you already have with the animated sprites, (recommended)
+you can replace the character's
+texture by dragging the sprite image to the proper location.
+
+.. image:: replace_sprite.png
+
+Make sure your program still works ok.
+
+Create an idle animation for your character like we did before.
+
+.. image:: create_animation.png
+
+Make sure that works. Now we need a clip for walking/running. Add a new clip from the Animator tab:
+
+.. image:: new_clip.png
+
+Show how to play clip, and change clip.
+
+See how both clips show up in Animator.
+
+Add a parameter, and transitions:
+
+.. image:: transitions.png
+
+Update code:
+
+.. literalinclude:: MyAnimatedCharacterController.cs
+   :linenos:
+   :language: c#
+   :emphasize-lines: 24-25, 32-33, 54-57, 61
+
