@@ -13,6 +13,8 @@ Advanced Game Design
    class_resources/2dunity2/index
    class_resources/2d_animation/index
    class_resources/2d_shooting/index
+   class_resources/2d_bloom/index
+
 
 .. toctree::
    :maxdepth: 1
