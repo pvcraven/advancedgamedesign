@@ -50,9 +50,51 @@ Amount of particles
 
 Adjust "rate over time"
 
-Make it better
---------------
-
-If you like coding, figure out how to make a 'burst' appear when destroying an object.
+Particle trails
+~~~~~~~~~~~~~~~
 
 Try adding trails, as shown in the video.
+
+Make things blow up when hit
+----------------------------
+
+Update your code so that your bullet script will create a "burst" prefab when you
+hit an item. You'll need to have the prefab be created with a script that will destroy
+itself over time.
+
+.. code-block:: c#
+
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+
+    public class BurstBulletScript : MonoBehaviour
+    {
+        public GameObject burstPrefab;
+        Rigidbody2D body;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            body = GetComponent<Rigidbody2D>();
+        }
+
+
+        public void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.tag == "Destroyable")
+            {
+
+                Destroy(collision.gameObject);
+                // Create the 'burst' effect
+                var burst = Instantiate(burstPrefab, body.position, Quaternion.identity);
+            }
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+        }
+    }
+
+
