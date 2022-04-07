@@ -62,6 +62,11 @@ Update your code so that your bullet script will create a "burst" prefab when yo
 hit an item. You'll need to have the prefab be created with a script that will destroy
 itself over time.
 
+.. note::
+
+   This example just shows the important parts. It doesn't show the needed "make the bullet
+   disappear after a while." We showed that earlier. You'll need to combine your scripts.
+
 .. code-block:: c#
 
     using System.Collections;
@@ -84,16 +89,11 @@ itself over time.
         {
             if (collision.tag == "Destroyable")
             {
-
+                // Destroy the item
                 Destroy(collision.gameObject);
                 // Create the 'burst' effect
                 var burst = Instantiate(burstPrefab, body.position, Quaternion.identity);
             }
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
         }
     }
 
