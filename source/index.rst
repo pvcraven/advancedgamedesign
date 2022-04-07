@@ -14,6 +14,7 @@ Advanced Game Design
    class_resources/2d_animation/index
    class_resources/2d_shooting/index
    class_resources/2d_bloom/index
+   class_resources/2d_particles/index
 
 
 .. toctree::
@@ -27,6 +28,7 @@ Advanced Game Design
    assignments/2d_assignment_1/index
    assignments/2d_assignment_2/index
    assignments/2d_assignment_3/index
+   assignments/2d_assignment_4/index
 
 
 
