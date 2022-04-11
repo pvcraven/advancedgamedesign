@@ -13,17 +13,26 @@ for getting promoted in your career.
      - Points
      - Scoring
    * - Add the ability to fire projectiles
-     - 10
-     - Some kind of projectile needs to be fired
+     - 20
+     - Some kind of projectile needs to be fired.
    * - Create a destroyable target
-     - 5
+     - 15
      - Have an item that is destroyed when hit by the projectile
    * - Create something that glows
-     - 10
+     - 15
      - At least one item needs a glow effect
    * - Create a particle system
+     - 20
+     - For full points, the particle effect needs to be
+       triggered. For example, an explosion when an item is hit.
+       Stand-alone particle systems that just emit are worth about 16 points.
+       Scoring will be somewhat dependent on amount of particle features used.
+   * - Create an 'attack' system.
+     - 20
+     - ?
+   * - Demo your level.
      - 10
-     - Get the sprite working.
+     - Be in class for our last class, and show off your level.
    * - Total
      - 100
      -

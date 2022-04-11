@@ -15,6 +15,7 @@ Advanced Game Design
    class_resources/2d_shooting/index
    class_resources/2d_bloom/index
    class_resources/2d_particles/index
+   class_resources/2d_attacks/index
 
 
 .. toctree::
